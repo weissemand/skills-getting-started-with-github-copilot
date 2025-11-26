@@ -196,6 +196,21 @@ footer {
   word-break: break-word;
 }
 
+/* Delete button */
+.participant-item .delete-btn {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 4px;
+}
+.participant-item .delete-btn:hover {
+  background: rgba(198, 40, 40, 0.06);
+}
+
 /* Kleinere schermen: zorg dat kaart compact blijft */
 @media (max-width: 480px) {
   .participant-name {
